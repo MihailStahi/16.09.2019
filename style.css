@@ -1,0 +1,25 @@
+body {
+  background-color: #333;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(lightgreen), color-stop(#0a420a), to(lightgreen));
+  background-image: linear-gradient(lightgreen, #0a420a, lightgreen);
+  border-radius: 100%;
+  border: 3px solid lightgreen;
+  color: white;
+  -webkit-box-shadow: 0 0 5px #0a420a;
+          box-shadow: 0 0 5px #0a420a;
+  text-shadow: 0.5px  0.5px   1px   black, -0.5px -0.5px 1px white;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0a420a), color-stop(lightgreen), to(#0a420a));
+  background-image: linear-gradient(#0a420a, lightgreen, #0a420a);
+}
+/*# sourceMappingURL=style.css.map */
